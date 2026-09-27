@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>URL Shortener</h1>
+
+    <p class="subtitle">
+        Create secure, shareable short links with analytics and expiration tracking
+    </p>
+
+    <div class="card">
+
+        <div class="shortener-box">
+
+            <input
+                    type="text"
+                    id="urlInput"
+                    placeholder="Enter the URL to shorten...">
+
+            <button onclick="shortenUrl()">
+                Create Short URL
+            </button>
+
+        </div>
+
+        <div class="alias-box">
+            <input
+                    type="text"
+                    id="aliasInput"
+                    placeholder="Custom Alias (Optional)">
+        </div>
+
+    </div>
+
+    <div id="message"></div>
+
+    <div id="result"></div>
+    <div id="analyticsContainer"></div>
+    <div id="topUrlsContainer"></div>
+
+</div>
+
+<!-- Copy Success Toast -->
+<div id="toast">
+    ✅ Link copied successfully
+</div>
+
+<!-- Expired URL Modal -->
+<div id="expiredModal" class="modal">
+    <div class="modal-content">
+        <h2>⚠️ Link Expired</h2>
+        <p>Short URL has expired.</p>
+
+        <button onclick="closeModal()">
+            OK
+        </button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
