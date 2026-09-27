@@ -4,25 +4,26 @@
 
 ### Home Screen
 
-![Home Screenome.png
+![Home Screen](screenshots/home.png)
 
 ---
 
 ### Analytics
 
-![reenshots/analytics.png
+![Analytics](screenshots/analytics.png)
 
 ---
 
 ### Top 3 URLs
 
-![creenshots/top-urls.png
+![Top 3 URLs](screenshots/top-urls.png)
 
 ---
 
 ### Expired URL Handling
 
-![reenshots/expired-link.png
+![Expired URL Handling](screenshots/expired-link.png)
+
 ---
 
 ## Features
